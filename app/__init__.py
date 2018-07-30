@@ -16,7 +16,7 @@ app.config.from_object('config')
 #db = SQLAlchemy(app)
 global db
 global cur
-db = mysql.connector.connect(user='sysadmin',port=3306, password='axbycz',host='172.16.4.18',database='sidekem')
+db = mysql.connector.connect(user='User',port=3306, password='Password',host='localhost',database='Database')
 cur = db.cursor()
 
 # Sample HTTP error handling
